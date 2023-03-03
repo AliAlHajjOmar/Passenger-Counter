@@ -1,0 +1,18 @@
+
+
+let sumTextStart = "Sum :"
+let add1 = " (since 8 + 2 = 10)"
+let substract1 = " (since 8 - 2 = 6)"
+let divide1 = " (since 8 / 2 = 4)"
+let multipy1 = " (since 8 * 2 = 16)"
+function add(){
+   document.getElementById("sum-el").textContent = sumTextStart + (num1 + num2) + add1
+}
+function Subtract(){
+   document.getElementById("sum-el").textContent = sumTextStart + (num1 - num2) + substract1
+}
+function divide(){
+   document.getElementById("sum-el").textContent = sumTextStart + ( num1 / num2 ) + divide1
+}
+function multipy(){
+   document.getElementById("sum-el").textContent = sumTextStart + num1 * num2 + multipy1
